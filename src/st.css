@@ -1,0 +1,82 @@
+.container{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 15px;
+margin: 10px;
+/* background: linear-gradient(
+
+to left,
+red,
+orange,
+yellow
+); */
+}
+.item{
+    margin: 13px;
+   padding-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#viewBtn{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+    color: rgb(230, 16, 16);
+    font-weight: 300;
+    border-color: blue;
+    font-size: smaller;
+}
+#top{
+    background: linear-gradient(
+
+to left,
+rgb(132, 0, 255),
+rgba(91, 91, 182, 0.969),
+rgb(103, 171, 232)
+);
+color: white;
+margin: 10px;
+padding: 10px;
+height: 240px;
+margin-top: 12px;
+padding-top: 78px;
+}
+#btn1{
+    width:100px;
+    height: 35px;
+    color: rgb(230, 16, 16);
+    font-weight: 300;
+    /* border-color: rgb(0, 238, 255); */
+    font-size: smaller;
+    border-radius: square;
+    color: black;
+}
+#btn2{
+    width:100px;
+    height: 35px;
+    color: rgb(230, 16, 16);
+    font-weight: 300;
+    /* border-color: rgb(0, 238, 255); */
+    font-size: smaller;
+    border-radius: square;
+    color: blue;
+    border-color: blue;
+    margin-top: 10px;
+   margin-right: 10px;
+}
+#cls{
+    margin-top: 78px;
+ 
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    height: 70px;
+    width: 100%;
+    justify-items: right;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#ttl{
+    /* border: 2px solid blue; */
+   margin-top: 10px;
+}
